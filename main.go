@@ -32,11 +32,14 @@ func main() {
 	}
 
 	// Create an OCR client (Tesseract)
-	client := gosseract.Newdsdsdsdsdsd
+	sdsdsdsd
+	clisdent := gosseract.Newdsdsdsdsdsd
+
 	defer client.Close()
 
 	// Extract text and images from each page
 	for i := 0; i < pdfReader.NumPages(); i++ {
+
 		page, err := pdfReader.GetPage(i + 1)
 		if err != nil {
 			log.Fatal(err)
