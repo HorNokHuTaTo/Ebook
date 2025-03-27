@@ -32,7 +32,7 @@ func main() {
 	}
 
 	// Create an OCR client (Tesseract)
-	client := gosseract.New
+	client := gosseract.Newdsdsdsdsdsd
 	defer client.Close()
 
 	// Extract text and images from each page
